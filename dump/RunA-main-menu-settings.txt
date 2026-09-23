@@ -1,0 +1,1192 @@
+﻿[Info   :XP Display Mod] === [XP] Settings screen tree ===
+[Info   :XP Display Mod] NewSettings Menu
+[Info   :XP Display Mod]   Menu
+[Info   :XP Display Mod]     BG
+[Info   :XP Display Mod]     Window BG
+[Info   :XP Display Mod]       Title
+[Info   :XP Display Mod]         Text (TMP)
+[Info   :XP Display Mod]         Icon BG
+[Info   :XP Display Mod]           Icon
+[Info   :XP Display Mod]       Taskbar
+[Info   :XP Display Mod]         Buttons
+[Info   :XP Display Mod]           Gameplay Tab Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]           Graphics Tab Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]           Audio Tab Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]           Interface Tab Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]           Keybinding Tab Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]         GPIcon (1)
+[Info   :XP Display Mod]         GPIcon (2)
+[Info   :XP Display Mod]       Tabs
+[Info   :XP Display Mod]         Gameplay Tab
+[Info   :XP Display Mod]           BG
+[Info   :XP Display Mod]           Scroll
+[Info   :XP Display Mod]             Viewport
+[Info   :XP Display Mod]               Content
+[Info   :XP Display Mod]             Scrollbar Vertical
+[Info   :XP Display Mod]               Sliding Area
+[Info   :XP Display Mod]           Save Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]             GPIcon
+[Info   :XP Display Mod]           Back Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]             GPIcon
+[Info   :XP Display Mod]         Graphics Tab
+[Info   :XP Display Mod]           BG
+[Info   :XP Display Mod]           Scroll
+[Info   :XP Display Mod]             Viewport
+[Info   :XP Display Mod]               Content
+[Info   :XP Display Mod]             Scrollbar Vertical
+[Info   :XP Display Mod]               Sliding Area
+[Info   :XP Display Mod]             GameObject
+[Info   :XP Display Mod]               Scrollbar Horizontal
+[Info   :XP Display Mod]           Save Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]             GPIcon
+[Info   :XP Display Mod]           Back Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]             GPIcon
+[Info   :XP Display Mod]           AdvancedGraphics
+[Info   :XP Display Mod]             Texture Quality
+[Info   :XP Display Mod]               Texture Quality
+[Info   :XP Display Mod]               Texture QualitySettings
+[Info   :XP Display Mod]             Anti-aliasing
+[Info   :XP Display Mod]               Anti-aliasing
+[Info   :XP Display Mod]               Anti-aliasing Settings
+[Info   :XP Display Mod]             Shadow Quality
+[Info   :XP Display Mod]               Shadow Quality
+[Info   :XP Display Mod]               Shadow Quality Settings
+[Info   :XP Display Mod]             Upscaling Filter
+[Info   :XP Display Mod]               Upscaling Filter
+[Info   :XP Display Mod]               Upscaling FilterSettings
+[Info   :XP Display Mod]             HDR
+[Info   :XP Display Mod]               HDR
+[Info   :XP Display Mod]               HDR Toggle
+[Info   :XP Display Mod]             PostProcess
+[Info   :XP Display Mod]               PostProcessText
+[Info   :XP Display Mod]               PostProcessToggle
+[Info   :XP Display Mod]             Save Button
+[Info   :XP Display Mod]               Text (TMP)
+[Info   :XP Display Mod]               GPIcon
+[Info   :XP Display Mod]             Back Button
+[Info   :XP Display Mod]               Text (TMP)
+[Info   :XP Display Mod]               GPIcon
+[Info   :XP Display Mod]             TitleCanvas
+[Info   :XP Display Mod]               Image
+[Info   :XP Display Mod]         Audio Tab
+[Info   :XP Display Mod]           BG
+[Info   :XP Display Mod]             Master Volume
+[Info   :XP Display Mod]               Master Volume
+[Info   :XP Display Mod]               Master Volume Settings
+[Info   :XP Display Mod]             Music Volume
+[Info   :XP Display Mod]               Music Volume
+[Info   :XP Display Mod]               Music VolumeSettings
+[Info   :XP Display Mod]             SFX Volume
+[Info   :XP Display Mod]               SFX Volume
+[Info   :XP Display Mod]               SFX VolumeSettings
+[Info   :XP Display Mod]           Save Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]             GPIcon
+[Info   :XP Display Mod]           Back Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]             GPIcon
+[Info   :XP Display Mod]         Interface Tab
+[Info   :XP Display Mod]           BG
+[Info   :XP Display Mod]           PanelParent
+[Info   :XP Display Mod]             CrosshairPanel
+[Info   :XP Display Mod]               Scroll
+[Info   :XP Display Mod]             GridPanel
+[Info   :XP Display Mod]               Scroll
+[Info   :XP Display Mod]             LayoutPanel
+[Info   :XP Display Mod]               Scroll
+[Info   :XP Display Mod]           SubTabBar
+[Info   :XP Display Mod]             GPIcon (1)
+[Info   :XP Display Mod]             CrosshairTabButton
+[Info   :XP Display Mod]               Text (TMP)
+[Info   :XP Display Mod]             GridTabButton
+[Info   :XP Display Mod]               Text (TMP)
+[Info   :XP Display Mod]             LayoutTabButton
+[Info   :XP Display Mod]               Text (TMP)
+[Info   :XP Display Mod]             GPIcon (2)
+[Info   :XP Display Mod]           Save Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]             GPIcon
+[Info   :XP Display Mod]           Back Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]             GPIcon
+[Info   :XP Display Mod]         Keybinding Tab
+[Info   :XP Display Mod]           BG
+[Info   :XP Display Mod]           Buttons
+[Info   :XP Display Mod]             KeyboardButton
+[Info   :XP Display Mod]               Text (TMP)
+[Info   :XP Display Mod]             GamepadButton
+[Info   :XP Display Mod]               Text (TMP)
+[Info   :XP Display Mod]           KeyboardEditor
+[Info   :XP Display Mod]             Viewport
+[Info   :XP Display Mod]               Content
+[Info   :XP Display Mod]             Scrollbar Horizontal
+[Info   :XP Display Mod]               Sliding Area
+[Info   :XP Display Mod]             Scrollbar Vertical
+[Info   :XP Display Mod]               Sliding Area
+[Info   :XP Display Mod]           GamepadEditor
+[Info   :XP Display Mod]             Viewport
+[Info   :XP Display Mod]               Content
+[Info   :XP Display Mod]             Scrollbar Horizontal
+[Info   :XP Display Mod]               Sliding Area
+[Info   :XP Display Mod]             Scrollbar Vertical
+[Info   :XP Display Mod]               Sliding Area
+[Info   :XP Display Mod]           Save Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]             GPIcon
+[Info   :XP Display Mod]           Back Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]             GPIcon
+[Info   :XP Display Mod]           Default Button
+[Info   :XP Display Mod]             Text (TMP)
+[Info   :XP Display Mod]             GPIcon
+[Info   :XP Display Mod]     GPIcon (1)
+[Info   :XP Display Mod]       Image
+[Info   :XP Display Mod]       Text (TMP)
+[Info   :XP Display Mod]     GPIcon (2)
+[Info   :XP Display Mod]       Image
+[Info   :XP Display Mod]       Text (TMP)
+[Info   :XP Display Mod]     GPIcon (3)
+[Info   :XP Display Mod]       Image
+[Info   :XP Display Mod]       Text (TMP)
+[Info   :XP Display Mod] === [XP] Buttons: 158
+[Info   :XP Display Mod]   [0] Gameplay Tab Button  text=''  parent=Buttons
+[Info   :XP Display Mod]   [1] Graphics Tab Button  text=''  parent=Buttons
+[Info   :XP Display Mod]   [2] Audio Tab Button  text=''  parent=Buttons
+[Info   :XP Display Mod]   [3] Interface Tab Button  text=''  parent=Buttons
+[Info   :XP Display Mod]   [4] Keybinding Tab Button  text=''  parent=Buttons
+[Info   :XP Display Mod]   [5] Save Button  text=''  parent=Gameplay Tab
+[Info   :XP Display Mod]   [6] Back Button  text=''  parent=Gameplay Tab
+[Info   :XP Display Mod]   [7] AdvancedSettings  text=''  parent=Content
+[Info   :XP Display Mod]   [8] Save Button  text=''  parent=Graphics Tab
+[Info   :XP Display Mod]   [9] Back Button  text=''  parent=Graphics Tab
+[Info   :XP Display Mod]   [10] Save Button  text=''  parent=AdvancedGraphics
+[Info   :XP Display Mod]   [11] Back Button  text=''  parent=AdvancedGraphics
+[Info   :XP Display Mod]   [12] Save Button  text=''  parent=Audio Tab
+[Info   :XP Display Mod]   [13] Back Button  text=''  parent=Audio Tab
+[Info   :XP Display Mod]   [14] AimSlot(Clone)  text=''  parent=Content
+[Info   :XP Display Mod]   [15] AimSlot(Clone)  text=''  parent=Content
+[Info   :XP Display Mod]   [16] AimSlot(Clone)  text=''  parent=Content
+[Info   :XP Display Mod]   [17] AimSlot(Clone)  text=''  parent=Content
+[Info   :XP Display Mod]   [18] Color Open Button  text=''  parent=Crosshair
+[Info   :XP Display Mod]   [19] Color Close Button  text=''  parent=Crosshair
+[Info   :XP Display Mod]   [20] Color Open Button  text=''  parent=GridColor
+[Info   :XP Display Mod]   [21] Color Close Button  text=''  parent=GridColor
+[Info   :XP Display Mod]   [22] FloorTextureLeftButton  text=''  parent=Reference Visual Border
+[Info   :XP Display Mod]   [23] FloorTextureRightButton  text=''  parent=Reference Visual Border
+[Info   :XP Display Mod]   [24] CrosshairTabButton  text=''  parent=SubTabBar
+[Info   :XP Display Mod]   [25] GridTabButton  text=''  parent=SubTabBar
+[Info   :XP Display Mod]   [26] LayoutTabButton  text=''  parent=SubTabBar
+[Info   :XP Display Mod]   [27] Save Button  text=''  parent=Interface Tab
+[Info   :XP Display Mod]   [28] Back Button  text=''  parent=Interface Tab
+[Info   :XP Display Mod]   [29] KeyboardButton  text=''  parent=Buttons
+[Info   :XP Display Mod]   [30] GamepadButton  text=''  parent=Buttons
+[Info   :XP Display Mod]   [31] RebindButton  text=''  parent=KeybindEntry_Forward
+[Info   :XP Display Mod]   [32] ResetButton  text=''  parent=KeybindEntry_Forward
+[Info   :XP Display Mod]   [33] RebindButton  text=''  parent=KeybindEntry_Backward
+[Info   :XP Display Mod]   [34] ResetButton  text=''  parent=KeybindEntry_Backward
+[Info   :XP Display Mod]   [35] RebindButton  text=''  parent=KeybindEntry_Left
+[Info   :XP Display Mod]   [36] ResetButton  text=''  parent=KeybindEntry_Left
+[Info   :XP Display Mod]   [37] RebindButton  text=''  parent=KeybindEntry_Right
+[Info   :XP Display Mod]   [38] ResetButton  text=''  parent=KeybindEntry_Right
+[Info   :XP Display Mod]   [39] RebindButton  text=''  parent=KeybindEntry_Jump
+[Info   :XP Display Mod]   [40] ResetButton  text=''  parent=KeybindEntry_Jump
+[Info   :XP Display Mod]   [41] RebindButton  text=''  parent=KeybindEntry_Sprint
+[Info   :XP Display Mod]   [42] ResetButton  text=''  parent=KeybindEntry_Sprint
+[Info   :XP Display Mod]   [43] RebindButton  text=''  parent=KeybindEntry_Drop
+[Info   :XP Display Mod]   [44] ResetButton  text=''  parent=KeybindEntry_Drop
+[Info   :XP Display Mod]   [45] RebindButton  text=''  parent=KeybindEntry_Sell
+[Info   :XP Display Mod]   [46] ResetButton  text=''  parent=KeybindEntry_Sell
+[Info   :XP Display Mod]   [47] RebindButton  text=''  parent=KeybindEntry_Take
+[Info   :XP Display Mod]   [48] ResetButton  text=''  parent=KeybindEntry_Take
+[Info   :XP Display Mod]   [49] RebindButton  text=''  parent=KeybindEntry_Use
+[Info   :XP Display Mod]   [50] ResetButton  text=''  parent=KeybindEntry_Use
+[Info   :XP Display Mod]   [51] RebindButton  text=''  parent=KeybindEntry_Throw
+[Info   :XP Display Mod]   [52] ResetButton  text=''  parent=KeybindEntry_Throw
+[Info   :XP Display Mod]   [53] RebindButton  text=''  parent=KeybindEntry_Back
+[Info   :XP Display Mod]   [54] ResetButton  text=''  parent=KeybindEntry_Back
+[Info   :XP Display Mod]   [55] RebindButton  text=''  parent=KeybindEntry_Cancel
+[Info   :XP Display Mod]   [56] ResetButton  text=''  parent=KeybindEntry_Cancel
+[Info   :XP Display Mod]   [57] RebindButton  text=''  parent=Keyboard_Player_Interaction_GridToggle
+[Info   :XP Display Mod]   [58] ResetButton  text=''  parent=Keyboard_Player_Interaction_GridToggle
+[Info   :XP Display Mod]   [59] RebindButton  text=''  parent=Keyboard_Player_Interaction_GridSizeNext
+[Info   :XP Display Mod]   [60] ResetButton  text=''  parent=Keyboard_Player_Interaction_GridSizeNext
+[Info   :XP Display Mod]   [61] RebindButton  text=''  parent=Keyboard_Player_Interaction_GridSizePrev
+[Info   :XP Display Mod]   [62] ResetButton  text=''  parent=Keyboard_Player_Interaction_GridSizePrev
+[Info   :XP Display Mod]   [63] RebindButton  text=''  parent=Keyboard_Player_Interaction_SnapPlace
+[Info   :XP Display Mod]   [64] ResetButton  text=''  parent=Keyboard_Player_Interaction_SnapPlace
+[Info   :XP Display Mod]   [65] RebindButton  text=''  parent=Keyboard_Player_Interaction_SnapRotate
+[Info   :XP Display Mod]   [66] ResetButton  text=''  parent=Keyboard_Player_Interaction_SnapRotate
+[Info   :XP Display Mod]   [67] RebindButton  text=''  parent=KeybindEntry_Map
+[Info   :XP Display Mod]   [68] ResetButton  text=''  parent=KeybindEntry_Map
+[Info   :XP Display Mod]   [69] RebindButton  text=''  parent=KeybindEntry_OnlineOrder
+[Info   :XP Display Mod]   [70] ResetButton  text=''  parent=KeybindEntry_OnlineOrder
+[Info   :XP Display Mod]   [71] RebindButton  text=''  parent=KeybindEntry_Toolwheel
+[Info   :XP Display Mod]   [72] ResetButton  text=''  parent=KeybindEntry_Toolwheel
+[Info   :XP Display Mod]   [73] RebindButton  text=''  parent=KeybindEntry_Wholesale
+[Info   :XP Display Mod]   [74] ResetButton  text=''  parent=KeybindEntry_Wholesale
+[Info   :XP Display Mod]   [75] RebindButton  text=''  parent=KeybindEntry_Quicksave
+[Info   :XP Display Mod]   [76] ResetButton  text=''  parent=KeybindEntry_Quicksave
+[Info   :XP Display Mod]   [77] RebindButton  text=''  parent=KeybindEntry_Steer_Left
+[Info   :XP Display Mod]   [78] ResetButton  text=''  parent=KeybindEntry_Steer_Left
+[Info   :XP Display Mod]   [79] RebindButton  text=''  parent=KeybindEntry_Steer_Right
+[Info   :XP Display Mod]   [80] ResetButton  text=''  parent=KeybindEntry_Steer_Right
+[Info   :XP Display Mod]   [81] RebindButton  text=''  parent=KeybindEntry_Gas
+[Info   :XP Display Mod]   [82] ResetButton  text=''  parent=KeybindEntry_Gas
+[Info   :XP Display Mod]   [83] RebindButton  text=''  parent=KeybindEntry_Brake
+[Info   :XP Display Mod]   [84] ResetButton  text=''  parent=KeybindEntry_Brake
+[Info   :XP Display Mod]   [85] RebindButton  text=''  parent=KeybindEntry_Handbrake
+[Info   :XP Display Mod]   [86] ResetButton  text=''  parent=KeybindEntry_Handbrake
+[Info   :XP Display Mod]   [87] RebindButton  text=''  parent=KeybindEntry_Refuel
+[Info   :XP Display Mod]   [88] ResetButton  text=''  parent=KeybindEntry_Refuel
+[Info   :XP Display Mod]   [89] RebindButton  text=''  parent=KeybindEntry_Reset
+[Info   :XP Display Mod]   [90] ResetButton  text=''  parent=KeybindEntry_Reset
+[Info   :XP Display Mod]   [91] RebindButton  text=''  parent=KeybindEntry_Exit
+[Info   :XP Display Mod]   [92] ResetButton  text=''  parent=KeybindEntry_Exit
+[Info   :XP Display Mod]   [93] RebindButton  text=''  parent=KeybindEntry_Forward
+[Info   :XP Display Mod]   [94] ResetButton  text=''  parent=KeybindEntry_Forward
+[Info   :XP Display Mod]   [95] RebindButton  text=''  parent=KeybindEntry_Backward
+[Info   :XP Display Mod]   [96] ResetButton  text=''  parent=KeybindEntry_Backward
+[Info   :XP Display Mod]   [97] RebindButton  text=''  parent=KeybindEntry_Left
+[Info   :XP Display Mod]   [98] ResetButton  text=''  parent=KeybindEntry_Left
+[Info   :XP Display Mod]   [99] RebindButton  text=''  parent=KeybindEntry_Right
+[Info   :XP Display Mod]   [100] ResetButton  text=''  parent=KeybindEntry_Right
+[Info   :XP Display Mod]   [101] RebindButton  text=''  parent=KeybindEntry_Jump
+[Info   :XP Display Mod]   [102] ResetButton  text=''  parent=KeybindEntry_Jump
+[Info   :XP Display Mod]   [103] RebindButton  text=''  parent=KeybindEntry_Sprint
+[Info   :XP Display Mod]   [104] ResetButton  text=''  parent=KeybindEntry_Sprint
+[Info   :XP Display Mod]   [105] RebindButton  text=''  parent=KeybindEntry_Drop
+[Info   :XP Display Mod]   [106] ResetButton  text=''  parent=KeybindEntry_Drop
+[Info   :XP Display Mod]   [107] RebindButton  text=''  parent=KeybindEntry_Sell
+[Info   :XP Display Mod]   [108] ResetButton  text=''  parent=KeybindEntry_Sell
+[Info   :XP Display Mod]   [109] RebindButton  text=''  parent=KeybindEntry_Take
+[Info   :XP Display Mod]   [110] ResetButton  text=''  parent=KeybindEntry_Take
+[Info   :XP Display Mod]   [111] RebindButton  text=''  parent=KeybindEntry_Use
+[Info   :XP Display Mod]   [112] ResetButton  text=''  parent=KeybindEntry_Use
+[Info   :XP Display Mod]   [113] RebindButton  text=''  parent=KeybindEntry_Throw
+[Info   :XP Display Mod]   [114] ResetButton  text=''  parent=KeybindEntry_Throw
+[Info   :XP Display Mod]   [115] RebindButton  text=''  parent=KeybindEntry_Back
+[Info   :XP Display Mod]   [116] ResetButton  text=''  parent=KeybindEntry_Back
+[Info   :XP Display Mod]   [117] RebindButton  text=''  parent=KeybindEntry_Cancel
+[Info   :XP Display Mod]   [118] ResetButton  text=''  parent=KeybindEntry_Cancel
+[Info   :XP Display Mod]   [119] RebindButton  text=''  parent=Keyboard_Player_Interaction_GridToggle
+[Info   :XP Display Mod]   [120] ResetButton  text=''  parent=Keyboard_Player_Interaction_GridToggle
+[Info   :XP Display Mod]   [121] RebindButton  text=''  parent=Keyboard_Player_Interaction_GridSizeNext
+[Info   :XP Display Mod]   [122] ResetButton  text=''  parent=Keyboard_Player_Interaction_GridSizeNext
+[Info   :XP Display Mod]   [123] RebindButton  text=''  parent=Keyboard_Player_Interaction_GridSizePrev
+[Info   :XP Display Mod]   [124] ResetButton  text=''  parent=Keyboard_Player_Interaction_GridSizePrev
+[Info   :XP Display Mod]   [125] RebindButton  text=''  parent=Keyboard_Player_Interaction_SnapPlace
+[Info   :XP Display Mod]   [126] ResetButton  text=''  parent=Keyboard_Player_Interaction_SnapPlace
+[Info   :XP Display Mod]   [127] RebindButton  text=''  parent=Keyboard_Player_Interaction_SnapRotate
+[Info   :XP Display Mod]   [128] ResetButton  text=''  parent=Keyboard_Player_Interaction_SnapRotate
+[Info   :XP Display Mod]   [129] RebindButton  text=''  parent=KeybindEntry_Map
+[Info   :XP Display Mod]   [130] ResetButton  text=''  parent=KeybindEntry_Map
+[Info   :XP Display Mod]   [131] RebindButton  text=''  parent=KeybindEntry_OnlineOrder
+[Info   :XP Display Mod]   [132] ResetButton  text=''  parent=KeybindEntry_OnlineOrder
+[Info   :XP Display Mod]   [133] RebindButton  text=''  parent=KeybindEntry_Toolwheel
+[Info   :XP Display Mod]   [134] ResetButton  text=''  parent=KeybindEntry_Toolwheel
+[Info   :XP Display Mod]   [135] RebindButton  text=''  parent=KeybindEntry_Wholesale
+[Info   :XP Display Mod]   [136] ResetButton  text=''  parent=KeybindEntry_Wholesale
+[Info   :XP Display Mod]   [137] RebindButton  text=''  parent=KeybindEntry_Quicksave
+[Info   :XP Display Mod]   [138] ResetButton  text=''  parent=KeybindEntry_Quicksave
+[Info   :XP Display Mod]   [139] RebindButton  text=''  parent=KeybindEntry_Steer_Left
+[Info   :XP Display Mod]   [140] ResetButton  text=''  parent=KeybindEntry_Steer_Left
+[Info   :XP Display Mod]   [141] RebindButton  text=''  parent=KeybindEntry_Steer_Right
+[Info   :XP Display Mod]   [142] ResetButton  text=''  parent=KeybindEntry_Steer_Right
+[Info   :XP Display Mod]   [143] RebindButton  text=''  parent=KeybindEntry_Gas
+[Info   :XP Display Mod]   [144] ResetButton  text=''  parent=KeybindEntry_Gas
+[Info   :XP Display Mod]   [145] RebindButton  text=''  parent=KeybindEntry_Brake
+[Info   :XP Display Mod]   [146] ResetButton  text=''  parent=KeybindEntry_Brake
+[Info   :XP Display Mod]   [147] RebindButton  text=''  parent=KeybindEntry_Handbrake
+[Info   :XP Display Mod]   [148] ResetButton  text=''  parent=KeybindEntry_Handbrake
+[Info   :XP Display Mod]   [149] RebindButton  text=''  parent=KeybindEntry_Refuel
+[Info   :XP Display Mod]   [150] ResetButton  text=''  parent=KeybindEntry_Refuel
+[Info   :XP Display Mod]   [151] RebindButton  text=''  parent=KeybindEntry_Reset
+[Info   :XP Display Mod]   [152] ResetButton  text=''  parent=KeybindEntry_Reset
+[Info   :XP Display Mod]   [153] RebindButton  text=''  parent=KeybindEntry_Exit
+[Info   :XP Display Mod]   [154] ResetButton  text=''  parent=KeybindEntry_Exit
+[Info   :XP Display Mod]   [155] Save Button  text=''  parent=Keybinding Tab
+[Info   :XP Display Mod]   [156] Back Button  text=''  parent=Keybinding Tab
+[Info   :XP Display Mod]   [157] Default Button  text=''  parent=Keybinding Tab
+[Info   :XP Display Mod] === [XP] Sliders: 9
+[Info   :XP Display Mod]   [0] Sensitivity Setting path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/MouseSensitivity/Sensitivity Setting
+[Info   :XP Display Mod]   [1] GPRotateSensitivitySettings path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/GPRotateSensitivity/GPRotateSensitivitySettings
+[Info   :XP Display Mod]   [2] VibrationSetting path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/VibrationStrength/VibrationSetting
+[Info   :XP Display Mod]   [3] FOV Setting Slider path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/Scroll/Viewport/Content/FOV/FOV Setting Slider
+[Info   :XP Display Mod]   [4] Master Volume Settings path=NewSettings Menu/Menu/Window BG/Tabs/Audio Tab/BG/Master Volume/Master Volume Settings
+[Info   :XP Display Mod]   [5] Music VolumeSettings path=NewSettings Menu/Menu/Window BG/Tabs/Audio Tab/BG/Music Volume/Music VolumeSettings
+[Info   :XP Display Mod]   [6] SFX VolumeSettings path=NewSettings Menu/Menu/Window BG/Tabs/Audio Tab/BG/SFX Volume/SFX VolumeSettings
+[Info   :XP Display Mod]   [7] Scale Slider path=NewSettings Menu/Menu/Window BG/Tabs/Interface Tab/PanelParent/CrosshairPanel/Scroll/Viewport/Content/Crosshair/Scale Panel/Scale Slider
+[Info   :XP Display Mod]   [8] AlphaSlider path=NewSettings Menu/Menu/Window BG/Tabs/Interface Tab/PanelParent/GridPanel/Scroll/Viewport/Content/GridColor/AlphaPanel/AlphaSlider
+[Info   :XP Display Mod] === [XP] Toggles: 22
+[Info   :XP Display Mod]   [0] Item path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/Language/Language Setting/Template/Viewport/Content/Item
+[Info   :XP Display Mod]   [1] Invert X Axis Toggle path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/InvertXAxis/Invert X Axis Toggle
+[Info   :XP Display Mod]   [2] Invert Y Axis Toggle path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/InvertYAxis/Invert Y Axis Toggle
+[Info   :XP Display Mod]   [3] RunInBGToggle path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/RunInBG/RunInBGToggle
+[Info   :XP Display Mod]   [4] CursorConfineToggle path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/CursorConfine/CursorConfineToggle
+[Info   :XP Display Mod]   [5] VibraionEnableToggle path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/VibrationEnable/VibraionEnableToggle
+[Info   :XP Display Mod]   [6] EnableShopliftersToggle path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/EnableShoplifters/EnableShopliftersToggle
+[Info   :XP Display Mod]   [7] EnableOnlineOrderToggle path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/EnableOnlineOrder/EnableOnlineOrderToggle
+[Info   :XP Display Mod]   [8] EnableWholeSaleToggle path=NewSettings Menu/Menu/Window BG/Tabs/Gameplay Tab/Scroll/Viewport/Content/EnableWholeSale/EnableWholeSaleToggle
+[Info   :XP Display Mod]   [9] Item path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/Scroll/Viewport/Content/Resolution/Resolution Setting/Template/Viewport/Content/Item
+[Info   :XP Display Mod]   [10] Item path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/Scroll/Viewport/Content/FrameRate/FrameRateSettings/Template/Viewport/Content/Item
+[Info   :XP Display Mod]   [11] Item path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/Scroll/Viewport/Content/GraphicsQuality/Graphics Setting/Template/Viewport/Content/Item
+[Info   :XP Display Mod]   [12] Item path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/Scroll/Viewport/Content/AntiAliasing/AntiAliasingDropdown/Template/Viewport/Content/Item
+[Info   :XP Display Mod]   [13] Full Screen Toggle path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/Scroll/Viewport/Content/FullScreen/Full Screen Toggle
+[Info   :XP Display Mod]   [14] VSync Toggle path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/Scroll/Viewport/Content/VSync/VSync Toggle
+[Info   :XP Display Mod]   [15] Item path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/AdvancedGraphics/Texture Quality/Texture QualitySettings/Template/Viewport/Content/Item
+[Info   :XP Display Mod]   [16] Item path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/AdvancedGraphics/Anti-aliasing/Anti-aliasing Settings/Template/Viewport/Content/Item
+[Info   :XP Display Mod]   [17] Item path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/AdvancedGraphics/Shadow Quality/Shadow Quality Settings/Template/Viewport/Content/Item
+[Info   :XP Display Mod]   [18] Item path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/AdvancedGraphics/Upscaling Filter/Upscaling FilterSettings/Template/Viewport/Content/Item
+[Info   :XP Display Mod]   [19] HDR Toggle path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/AdvancedGraphics/HDR/HDR Toggle
+[Info   :XP Display Mod]   [20] PostProcessToggle path=NewSettings Menu/Menu/Window BG/Tabs/Graphics Tab/AdvancedGraphics/PostProcess/PostProcessToggle
+[Info   :XP Display Mod]   [21] Item path=NewSettings Menu/Menu/Window BG/Tabs/Interface Tab/PanelParent/LayoutPanel/Scroll/Viewport/Content/LayoutDropdown/Layout Setting/Template/Viewport/Content/Item
+[Info   :XP Display Mod] === [XP] Node inspector ===
+[Info   :XP Display Mod] [XP] 'Language' Rect size=(876.60, 75.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(0.00, 0.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Language
+[Info   :XP Display Mod] [XP]     - Language Setting
+[Info   :XP Display Mod] [XP] 'MasterVolume' Rect size=(50.70, 30.00) pos=(-35.00, 0.00) anchor=(0.00, 0.50)->(0.00, 0.50) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=0.6148985,0.7723107,0.8867924,0 fillCenter=True ppu=1.5
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - MasterVolumeText
+[Info   :XP Display Mod] [XP] node 'MasterVolumeSettings' NOT FOUND
+[Info   :XP Display Mod] [XP] 'SFXVolume' Rect size=(50.70, 30.00) pos=(-35.00, 0.00) anchor=(0.00, 0.50)->(0.00, 0.50) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=0.6148985,0.7723107,0.8867924,0 fillCenter=True ppu=1.5
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - SFXVolumeText
+[Info   :XP Display Mod] [XP] node 'SFXVolumeSettings' NOT FOUND
+[Info   :XP Display Mod] [XP] 'VibrationStrength' Rect size=(876.60, 75.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(0.00, 0.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - VibrationStrengthText
+[Info   :XP Display Mod] [XP]     - VibrationSetting
+[Info   :XP Display Mod] [XP] node 'InterfaceButton' NOT FOUND
+[Info   :XP Display Mod] [XP] 'Save Button' Rect size=(200.00, 50.00) pos=(-125.00, 73.00) anchor=(0.50, 0.00)->(0.50, 0.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.Button; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Text (TMP)
+[Info   :XP Display Mod] [XP]     - GPIcon
+[Info   :XP Display Mod] [XP] 'Back Button' Rect size=(200.00, 50.00) pos=(125.00, 73.00) anchor=(0.50, 0.00)->(0.50, 0.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.Button; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Text (TMP)
+[Info   :XP Display Mod] [XP]     - GPIcon
+[Info   :XP Display Mod] [XP] 'Item Background [0]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.9607843,0.9607843,0.9607843,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [1]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.25)->(1.00, 0.75) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=1.5
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [2]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.25)->(1.00, 0.75) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=1.5
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Invert X Axis Toggle [3]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   toggle: isOn=False targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; UIFocusScroller; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [4]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'Invert Y Axis Toggle [5]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   toggle: isOn=False targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; UIFocusScroller; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [6]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'RunInBGToggle [7]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   toggle: isOn=False targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; UIFocusScroller; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [8]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'CursorConfineToggle [9]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   toggle: isOn=True targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; UIFocusScroller; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [10]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'VibraionEnableToggle [11]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   toggle: isOn=True targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; UIFocusScroller; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [12]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'Background [13]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.25)->(1.00, 0.75) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=1.5
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'EnableShopliftersToggle [14]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   toggle: isOn=True targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; UIFocusScroller; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [15]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'EnableOnlineOrderToggle [16]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   toggle: isOn=True targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; UIFocusScroller; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [17]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'EnableWholeSaleToggle [18]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   toggle: isOn=True targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; UIFocusScroller; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [19]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=True
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'Item Background [20]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.9607843,0.9607843,0.9607843,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Item Background [21]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.9607843,0.9607843,0.9607843,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Item Background [22]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.9607843,0.9607843,0.9607843,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Item Background [23]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.9607843,0.9607843,0.9607843,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'FOV Setting Slider [24]' Rect size=(300.00, 60.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   slider: min=50 max=120 whole=True fillRect=Fill handleRect=Handle background=Background
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Slider; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; UIFocusScroller; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP]     - Fill Area
+[Info   :XP Display Mod] [XP]     - Handle Slide Area
+[Info   :XP Display Mod] [XP]     - Current FOV
+[Info   :XP Display Mod] [XP] 'Background [25]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.25)->(1.00, 0.75) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=1.5
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Full Screen Toggle [26]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   toggle: isOn=True targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; UIFocusScroller; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [27]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'VSync Toggle [28]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   toggle: isOn=False targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; UIFocusScroller; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [29]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'Item Background [30]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.9607843,0.9607843,0.9607843,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Item Background [31]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.9607843,0.9607843,0.9607843,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Item Background [32]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.9607843,0.9607843,0.9607843,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Item Background [33]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.9607843,0.9607843,0.9607843,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'HDR Toggle [34]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   toggle: isOn=True targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [35]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'PostProcessToggle [36]' Rect size=(35.00, 35.00) pos=(-200.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   toggle: isOn=False targetGraphic=Background checkmark=Checkmark
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Toggle; __Project__.Scripts.ControllerInputModule.GamepadUISelectable; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP] 'Background [37]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=UISprite type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Checkmark
+[Info   :XP Display Mod] [XP] 'Background [38]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.25)->(1.00, 0.75) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=1.5
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [39]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.25)->(1.00, 0.75) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=1.5
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [40]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.25)->(1.00, 0.75) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=0.84313726,0.93333334,1,1 fillCenter=True ppu=1.5
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'PanelParent [41]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.11)->(1.00, 0.91) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - CrosshairPanel
+[Info   :XP Display Mod] [XP]     - GridPanel
+[Info   :XP Display Mod] [XP]     - LayoutPanel
+[Info   :XP Display Mod] [XP] 'CrosshairPanel [42]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; __Project__.Scripts.ControllerInputModule.GamePadUIPanel; __Project__.Scripts.ControllerInputModule.EventHandlers.GamepadUIRightStick; __Project__.Scripts.ControllerInputModule.EventHandlers.GamepadUINorth; __Project__.Scripts.ControllerInputModule.GamepadSelectableParent; __Project__.Scripts.PlayerAim.AimSettingsMenu; __Project__.Scripts.ControllerInputModule.EventHandlers.GamepadUITrigger; __Project__.Scripts.ControllerInputModule.EventHandlers.GamepadUIWest; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Scroll
+[Info   :XP Display Mod] [XP] 'Scale Panel [43]' Rect size=(365.30, 65.50) pos=(125.00, 0.00) anchor=(0.50, 0.50)->(0.50, 0.50) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Scale
+[Info   :XP Display Mod] [XP]     - Scale Slider
+[Info   :XP Display Mod] [XP] 'Scale Slider [44]' Rect size=(198.09, 20.00) pos=(0.00, 0.00) anchor=(1.00, 0.50)->(1.00, 0.50) pivot=(1.00, 0.50) active=False
+[Info   :XP Display Mod] [XP]   slider: min=1 max=3 whole=False fillRect=Fill handleRect=Handle background=Background
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Slider; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP]     - Fill Area
+[Info   :XP Display Mod] [XP]     - Handle Slide Area
+[Info   :XP Display Mod] [XP]     - GPIcon (2)
+[Info   :XP Display Mod] [XP] 'Background [45]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.25)->(1.00, 0.75) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=1,1,1,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Color Panel [46]' Rect size=(300.00, 300.00) pos=(614.23, -156.00) anchor=(0.50, 1.00)->(0.50, 1.00) pivot=(0.50, 1.00) active=False
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Text Color Picker
+[Info   :XP Display Mod] [XP] 'GridPanel [47]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=1,1,1,0.392 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; __Project__.Scripts.ControllerInputModule.GamePadUIPanel; __Project__.Scripts.ControllerInputModule.EventHandlers.GamepadUIRightStick; __Project__.Scripts.ControllerInputModule.EventHandlers.GamepadUINorth; __Project__.Scripts.ControllerInputModule.EventHandlers.GamepadUITrigger; __Project__.Scripts.ControllerInputModule.EventHandlers.GamepadUIWest; __Project__.Scripts.ControllerInputModule.EventHandlers.GamepadUIDPad; __Project__.Scripts.ControllerInputModule.GamepadUIFunctionLibrary; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Scroll
+[Info   :XP Display Mod] [XP] 'AlphaPanel [48]' Rect size=(733.92, 65.50) pos=(-71.35, 0.00) anchor=(0.50, 0.50)->(0.50, 0.50) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - AlphaText
+[Info   :XP Display Mod] [XP]     - AlphaSlider
+[Info   :XP Display Mod] [XP] 'AlphaSlider [49]' Rect size=(198.09, 20.00) pos=(745.26, 0.00) anchor=(0.00, 0.50)->(0.00, 0.50) pivot=(1.00, 0.50) active=False
+[Info   :XP Display Mod] [XP]   slider: min=0 max=1 whole=False fillRect=Fill handleRect=Handle background=Background
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.Slider; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP]     - Fill Area
+[Info   :XP Display Mod] [XP]     - Handle Slide Area
+[Info   :XP Display Mod] [XP]     - GPIcon (2)
+[Info   :XP Display Mod] [XP] 'Background [50]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.25)->(1.00, 0.75) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=1,1,1,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Color Panel [51]' Rect size=(300.00, 300.00) pos=(618.00, -167.00) anchor=(0.50, 1.00)->(0.50, 1.00) pivot=(0.50, 1.00) active=False
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - GridColorPicker
+[Info   :XP Display Mod] [XP] 'LayoutPanel [52]' Rect size=(0.00, -0.22) pos=(0.00, -0.11) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=Background type=Sliced color=1,1,1,0.392 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; __Project__.Scripts.ControllerInputModule.GamePadUIPanel; __Project__.Scripts.ControllerInputModule.EventHandlers.GamepadUIWest; __Project__.Scripts.ControllerInputModule.GamepadUIFunctionLibrary; __Project__.Scripts.ControllerInputModule.EventHandlers.GamepadUITrigger; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Scroll
+[Info   :XP Display Mod] [XP] 'Item Background [53]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.9607843,0.9607843,0.9607843,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [54]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=S_HorizontalGradient_v1 type=Simple color=0.9803922,0.5019608,0.4470589,1 fillCenter=True ppu=8.2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [55]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [56]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [57]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [58]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [59]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [60]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [61]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [62]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [63]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [64]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [65]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [66]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [67]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=S_HorizontalGradient_v1 type=Simple color=0.9803922,0.5019608,0.4470589,1 fillCenter=True ppu=8.2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [68]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [69]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [70]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [71]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [72]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [73]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [74]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [75]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [76]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [77]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [78]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [79]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [80]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [81]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Keyboard_Player_Interaction_GridToggle [82]' Rect size=(870.49, 55.70) pos=(435.25, -1011.95) anchor=(0.00, 1.00)->(0.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.HorizontalLayoutGroup; KeybindEntryView; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP]     - ConflictBackground
+[Info   :XP Display Mod] [XP]     - TitleText
+[Info   :XP Display Mod] [XP]     - RebindButton
+[Info   :XP Display Mod] [XP]     - ResetButton
+[Info   :XP Display Mod] [XP] 'Background [83]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [84]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [85]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [86]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [87]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [88]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [89]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [90]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [91]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [92]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [93]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=S_HorizontalGradient_v1 type=Simple color=0.9803922,0.5019608,0.4470589,1 fillCenter=True ppu=8.2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [94]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [95]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [96]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [97]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [98]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [99]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [100]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [101]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [102]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [103]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [104]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=S_HorizontalGradient_v1 type=Simple color=0.9803922,0.5019608,0.4470589,1 fillCenter=True ppu=8.2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [105]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [106]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [107]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [108]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [109]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [110]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [111]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [112]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [113]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [114]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [115]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [116]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [117]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [118]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [119]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [120]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [121]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=S_HorizontalGradient_v1 type=Simple color=0.9803922,0.5019608,0.4470589,1 fillCenter=True ppu=8.2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [122]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [123]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [124]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [125]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [126]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [127]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [128]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [129]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [130]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [131]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [132]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [133]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [134]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=S_HorizontalGradient_v1 type=Simple color=0.9803922,0.5019608,0.4470589,1 fillCenter=True ppu=8.2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [135]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [136]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [137]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [138]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [139]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [140]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [141]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [142]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [143]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [144]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [145]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [146]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [147]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [148]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Keyboard_Player_Interaction_GridToggle [149]' Rect size=(0.00, 55.70) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(0.00, 0.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.UI.HorizontalLayoutGroup; KeybindEntryView; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP]     - Background
+[Info   :XP Display Mod] [XP]     - ConflictBackground
+[Info   :XP Display Mod] [XP]     - TitleText
+[Info   :XP Display Mod] [XP]     - RebindButton
+[Info   :XP Display Mod] [XP]     - ResetButton
+[Info   :XP Display Mod] [XP] 'Background [150]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [151]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [152]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [153]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [154]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [155]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [156]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [157]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [158]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [159]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [160]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=S_HorizontalGradient_v1 type=Simple color=0.9803922,0.5019608,0.4470589,1 fillCenter=True ppu=8.2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [161]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [162]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [163]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [164]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [165]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [166]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [167]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [168]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [169]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [170]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [171]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=S_HorizontalGradient_v1 type=Simple color=0.9803922,0.5019608,0.4470589,1 fillCenter=True ppu=8.2
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [172]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [173]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [174]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [175]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [176]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [177]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [178]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [179]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [180]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [181]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [182]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [183]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [184]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [185]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'Background [186]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=null type=Simple color=0.19215688,0.38431376,0.6,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] [XP] 'ConflictBackground [187]' Rect size=(0.00, 0.00) pos=(0.00, 0.00) anchor=(0.00, 0.00)->(1.00, 1.00) pivot=(0.50, 0.50) active=False
+[Info   :XP Display Mod] [XP]   image: sprite=glow_vertical_1 type=Simple color=0.8490566,0.04738707,0.0040049935,1 fillCenter=True ppu=1
+[Info   :XP Display Mod] [XP]   comps: UnityEngine.RectTransform; UnityEngine.CanvasRenderer; UnityEngine.UI.Image; UnityEngine.UI.LayoutElement; 
+[Info   :XP Display Mod] [XP]   children: 
+[Info   :XP Display Mod] === [XP] Matched-name node dumps: 188

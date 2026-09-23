@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Il2CppInterop.Runtime;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using UnityEngine;
 
@@ -16,6 +17,7 @@ public class XPDisplayBehaviour : MonoBehaviour
 	private SettingsMenuManager _settingsMenu;
 	private float _scanTimer;
 	private bool _settingsDumpDone;
+	private bool _nativeXpScanDone;
 
 	// state (kept in sync by the game's own events - zero polling)
 	private int _currentXp;
@@ -108,14 +110,42 @@ public class XPDisplayBehaviour : MonoBehaviour
 	{
 		try
 		{
-			if (_settingsMenu == null)
+			if (_settingsMenu == null || !_settingsMenu.gameObject.activeInHierarchy)
 			{
 				SettingsMenuManager[] found = UnityEngine.Object.FindObjectsOfType<SettingsMenuManager>();
 				if (found != null && found.Length > 0)
 				{
-					_settingsMenu = found[0];
+					// track the settings screen that is actually ACTIVE (main menu vs in-game
+					// Escape Menu spawn separate instances - follow the visible one)
+					SettingsMenuManager activeInstance = null;
+					SettingsMenuManager activeRootInstance = null;
+					for (int i = 0; i < found.Length; i++)
+					{
+						Transform m = found[i] != null ? FindChild(found[i].transform, "Menu") : null;
+						if (found[i].gameObject.activeInHierarchy && m != null && m.gameObject.activeInHierarchy)
+						{
+							activeInstance = found[i];
+							break;
+						}
+						if (activeRootInstance == null && found[i] != null && found[i].gameObject.activeInHierarchy)
+						{
+							activeRootInstance = found[i];
+						}
+					}
+					if (activeInstance != null)
+					{
+						_settingsMenu = activeInstance;
+					}
+					else if (activeRootInstance != null)
+					{
+						_settingsMenu = activeRootInstance;
+					}
+					else if (_settingsMenu == null)
+					{
+						_settingsMenu = found[0];
+					}
 					var log = XPDisplayMod.Instance.Log;
-					log.LogInfo("[XP] SettingsMenuManager instances: " + found.Length);
+					log.LogInfo("[XP] SettingsMenuManager instances: " + found.Length + " tracking=" + _settingsMenu.gameObject.name);
 					for (int i = 0; i < found.Length; i++)
 					{
 						log.LogInfo("[XP]   [" + i + "] root=" + found[i].gameObject.name +
@@ -150,14 +180,18 @@ public class XPDisplayBehaviour : MonoBehaviour
 				}
 			}
 
-			// one-shot dump + live injection happen while the settings panel is OPEN
+			// one-shot dump + live injection happen while the settings panel is OPEN.
+			// in-game the visible settings screen is XboxSettingMenu (no "Menu" child),
+			// so fall back to the tracked instance root being active in the hierarchy.
 			Transform menu = _settingsMenu != null ? FindChild(_settingsMenu.transform, "Menu") : null;
-			bool openNow = menu != null && menu.gameObject.activeInHierarchy;
+			bool openNow = _settingsMenu != null && (menu != null
+				? menu.gameObject.activeInHierarchy
+				: _settingsMenu.gameObject.activeInHierarchy);
 			if (openNow && !_settingsDumpDone)
 			{
 				DumpSettingsScreen();
 			}
-			if (openNow)
+			if (openNow && menu != null)
 			{
 				TryInjectSettingsButton(menu);
 				EnforceStrip();
@@ -217,7 +251,7 @@ public class XPDisplayBehaviour : MonoBehaviour
 			{
 				UnityEngine.Object.Destroy(clone.transform.GetChild(i).gameObject);
 			}
-			var labelGo = new GameObject("XPDisplayLabel");
+			var labelGo = new GameObject("XPDisplayLabel", Il2CppType.Of<RectTransform>(), Il2CppType.Of<UnityEngine.UI.Text>());
 			labelGo.transform.SetParent(clone.transform, false);
 			RectTransform lrt = labelGo.GetComponent<RectTransform>();
 			lrt.anchorMin = Vector2.zero;
@@ -242,7 +276,7 @@ public class XPDisplayBehaviour : MonoBehaviour
 			// native tab text has a subtle 1px drop shadow - replicate with UGUI Shadow
 			try
 			{
-				UnityEngine.UI.Shadow sh = 
+				UnityEngine.UI.Shadow sh = clone.AddComponent(Il2CppType.Of<UnityEngine.UI.Shadow>()).Cast<UnityEngine.UI.Shadow>();
 				sh.effectColor = new Color(0f, 0f, 0f, 0.35f);
 				sh.effectDistance = new Vector2(1f, -1f);
 			}
@@ -253,7 +287,7 @@ public class XPDisplayBehaviour : MonoBehaviour
 			UnityEngine.UI.Button btn = clone.GetComponent<UnityEngine.UI.Button>();
 			if (btn == null)
 			{
-				btn = 
+				btn = clone.AddComponent(Il2CppType.Of<UnityEngine.UI.Button>()).Cast<UnityEngine.UI.Button>();
 			}
 			btn.onClick.RemoveAllListeners();
 			btn.onClick.AddListener((UnityEngine.Events.UnityAction)OnModsButtonClicked);
@@ -383,15 +417,40 @@ public class XPDisplayBehaviour : MonoBehaviour
 			log.LogInfo("=== [XP] Settings screen tree ===");
 			DumpTransform(_settingsMenu.transform, 0, log);
 			UnityEngine.UI.Button[] btns = _settingsMenu.GetComponentsInChildren<UnityEngine.UI.Button>(true);
-			log.LogInfo("=== [XP] Buttons: " + btns.Length);
+log.LogInfo("=== [XP] Buttons: " + btns.Length);
 			for (int i = 0; i < btns.Length; i++)
 			{
 				UnityEngine.UI.Button b = btns[i];
 				string text = GetChildText(b.transform);
 				log.LogInfo("  [" + i + "] " + b.gameObject.name + "  text='" + text + "'  parent=" + b.transform.parent.name);
 			}
+			try
+			{
+				UnityEngine.UI.Slider[] sliders = _settingsMenu.GetComponentsInChildren<UnityEngine.UI.Slider>(true);
+				log.LogInfo("=== [XP] Sliders: " + sliders.Length);
+				for (int i = 0; i < sliders.Length; i++)
+				{
+					log.LogInfo("  [" + i + "] " + sliders[i].gameObject.name + " path=" + FindPath(sliders[i].transform));
+				}
+			}
+			catch (Exception ex)
+			{
+				log.LogInfo("[XP] slider list failed: " + ex.Message);
+			}
+			try
+			{
+				UnityEngine.UI.Toggle[] toggles = _settingsMenu.GetComponentsInChildren<UnityEngine.UI.Toggle>(true);
+				log.LogInfo("=== [XP] Toggles: " + toggles.Length);
+				for (int i = 0; i < toggles.Length; i++)
+				{
+					log.LogInfo("  [" + i + "] " + toggles[i].gameObject.name + " path=" + FindPath(toggles[i].transform));
+				}
+			}
+			catch (Exception ex)
+			{
+				log.LogInfo("[XP] toggle list failed: " + ex.Message);
+			}
 			log.LogInfo("=== [XP] Node inspector ===");
-			DumpNode(_settingsMenu.transform, "Menu");
 			DumpNode(_settingsMenu.transform, "Language");
 			DumpNode(_settingsMenu.transform, "MasterVolume");
 			DumpNode(_settingsMenu.transform, "MasterVolumeSettings");
@@ -401,6 +460,31 @@ public class XPDisplayBehaviour : MonoBehaviour
 			DumpNode(_settingsMenu.transform, "InterfaceButton");
 			DumpNode(_settingsMenu.transform, "Save Button");
 			DumpNode(_settingsMenu.transform, "Back Button");
+			try
+			{
+				RectTransform[] namedRects = _settingsMenu.GetComponentsInChildren<RectTransform>(true);
+				int matchCount = 0;
+				for (int i = 0; i < namedRects.Length; i++)
+				{
+					string n2 = namedRects[i].gameObject.name;
+					if (n2 == null) continue;
+					bool hit = n2.IndexOf("Toggle", StringComparison.OrdinalIgnoreCase) >= 0 ||
+						n2.IndexOf("Slider", StringComparison.OrdinalIgnoreCase) >= 0 ||
+						n2.IndexOf("Checkbox", StringComparison.OrdinalIgnoreCase) >= 0 ||
+						n2.IndexOf("Panel", StringComparison.OrdinalIgnoreCase) >= 0 ||
+						n2.IndexOf("Background", StringComparison.OrdinalIgnoreCase) >= 0;
+					if (hit)
+					{
+						DumpNodeTransform(namedRects[i], n2 + " [" + matchCount + "]");
+						matchCount++;
+					}
+				}
+				log.LogInfo("=== [XP] Matched-name node dumps: " + matchCount);
+			}
+			catch (Exception ex)
+			{
+				log.LogInfo("[XP] matched-name scan failed: " + ex.Message);
+			}
 		}
 		catch (Exception ex)
 		{
@@ -489,6 +573,36 @@ public class XPDisplayBehaviour : MonoBehaviour
 		return t.parent != null ? FindPath(t.parent) + "/" + t.gameObject.name : t.gameObject.name;
 	}
 
+	// one-shot: native XP/level/progress/store HUD component scan (data gathering)
+	private void ScanNativeXpNodes()
+	{
+		if (_nativeXpScanDone) return;
+		_nativeXpScanDone = true;
+		try
+		{
+			RectTransform[] all = UnityEngine.Object.FindObjectsOfType<RectTransform>(true);
+			XPDisplayMod.Instance.Log.LogInfo("[XP] native-XP scan: " + all.Length + " rects");
+			for (int i = 0; i < all.Length; i++)
+			{
+				string n = all[i].gameObject.name;
+				if (n != null && (n.IndexOf("xp", StringComparison.OrdinalIgnoreCase) >= 0 ||
+					n.IndexOf("level", StringComparison.OrdinalIgnoreCase) >= 0 ||
+					n.IndexOf("exp", StringComparison.OrdinalIgnoreCase) >= 0 ||
+					n.IndexOf("progress", StringComparison.OrdinalIgnoreCase) >= 0 ||
+					n.IndexOf("store", StringComparison.OrdinalIgnoreCase) >= 0))
+				{
+					XPDisplayMod.Instance.Log.LogInfo("[XP] native-XP candidate: '" + n + "' parent=" +
+						(all[i].parent != null ? all[i].parent.gameObject.name : "none") + " path=" + FindPath(all[i]));
+				}
+			}
+			XPDisplayMod.Instance.Log.LogInfo("[XP] native-XP scan done");
+		}
+		catch (Exception ex)
+		{
+			XPDisplayMod.Instance.Log.LogError("[XP] native-XP scan failed: " + ex.Message);
+		}
+	}
+
 	private static Transform FindChild(Transform root, string name)
 	{
 		if (root == null) return null;
@@ -509,16 +623,21 @@ public class XPDisplayBehaviour : MonoBehaviour
 			XPDisplayMod.Instance.Log.LogInfo("[XP] node '" + name + "' NOT FOUND");
 			return;
 		}
+		DumpNodeTransform(t, name);
+	}
+
+	private static void DumpNodeTransform(Transform t, string label)
+	{
 		var log = XPDisplayMod.Instance.Log;
 		RectTransform rect = t.GetComponent<RectTransform>();
 		if (rect != null)
 		{
-			log.LogInfo("[XP] '" + name + "' Rect size=" + rect.sizeDelta + " pos=" + rect.anchoredPosition +
+			log.LogInfo("[XP] '" + label + "' Rect size=" + rect.sizeDelta + " pos=" + rect.anchoredPosition +
 				" anchor=" + rect.anchorMin + "->" + rect.anchorMax + " pivot=" + rect.pivot + " active=" + t.gameObject.activeInHierarchy);
 		}
 		else
 		{
-			log.LogInfo("[XP] '" + name + "' Transform localPos=" + t.localPosition + " active=" + t.gameObject.activeInHierarchy);
+			log.LogInfo("[XP] '" + label + "' Transform localPos=" + t.localPosition + " active=" + t.gameObject.activeInHierarchy);
 		}
 		UnityEngine.UI.Text txtComp = t.GetComponent<UnityEngine.UI.Text>();
 		if (txtComp != null)
@@ -526,18 +645,112 @@ public class XPDisplayBehaviour : MonoBehaviour
 			log.LogInfo("[XP]   text: '" + txtComp.text + "' font=" + txtComp.font.name + " size=" + txtComp.fontSize +
 				" color=" + txtComp.color + " align=" + txtComp.alignment + " bold=" + txtComp.fontStyle);
 		}
-		Component[] comps = t.GetComponents<Component>();
-		string list = "";
-		for (int i = 0; i < comps.Length; i++)
+
+		// component detail pass (data gathering for native-UI cloning)
+		try
 		{
-			try
+			UnityEngine.UI.Image img = t.GetComponent<UnityEngine.UI.Image>();
+			if (img != null)
 			{
-				list += comps[i].GetIl2CppType().FullName + "; ";
-			}
-			catch (Exception)
-			{
+				string spriteName = "null";
+				try { if (img.sprite != null) spriteName = img.sprite.name; } catch (Exception) { }
+				string typeStr = "?";
+				try
+				{
+					if (img.type == UnityEngine.UI.Image.Type.Simple) typeStr = "Simple";
+					else if (img.type == UnityEngine.UI.Image.Type.Sliced) typeStr = "Sliced";
+					else if (img.type == UnityEngine.UI.Image.Type.Tiled) typeStr = "Tiled";
+					else if (img.type == UnityEngine.UI.Image.Type.Filled) typeStr = "Filled";
+				}
+				catch (Exception) { }
+				log.LogInfo("[XP]   image: sprite=" + spriteName + " type=" + typeStr +
+					" color=" + img.color.r + "," + img.color.g + "," + img.color.b + "," + img.color.a +
+					" fillCenter=" + img.fillCenter + " ppu=" + img.pixelsPerUnitMultiplier);
 			}
 		}
+		catch (Exception) { }
+
+		try
+		{
+			TMPro.TextMeshProUGUI tmp = t.GetComponent<TMPro.TextMeshProUGUI>();
+			if (tmp != null)
+			{
+				string fontName = "null";
+				try { if (tmp.font != null) fontName = tmp.font.name; } catch (Exception) { }
+				string fstyle = "?";
+				try
+				{
+					if (tmp.fontStyle == TMPro.FontStyles.Normal) fstyle = "Normal";
+					else fstyle = tmp.fontStyle.ToString();
+				}
+				catch (Exception)
+				{
+					fstyle = "?";
+				}
+				log.LogInfo("[XP]   tmp: font=" + fontName + " size=" + tmp.fontSize +
+					" color=" + tmp.color.r + "," + tmp.color.g + "," + tmp.color.b + "," + tmp.color.a +
+					" style=" + fstyle);
+			}
+		}
+		catch (Exception) { }
+
+		try
+		{
+			UnityEngine.UI.Toggle tg = t.GetComponent<UnityEngine.UI.Toggle>();
+			if (tg != null)
+			{
+				string targetName = "null", graphicName = "null";
+				try { if (tg.targetGraphic != null) targetName = tg.targetGraphic.gameObject.name; } catch (Exception) { }
+				try { if (tg.graphic != null) graphicName = tg.graphic.gameObject.name; } catch (Exception) { }
+				log.LogInfo("[XP]   toggle: isOn=" + tg.isOn + " targetGraphic=" + targetName + " checkmark=" + graphicName);
+			}
+		}
+		catch (Exception) { }
+
+		try
+		{
+			UnityEngine.UI.Slider sl = t.GetComponent<UnityEngine.UI.Slider>();
+			if (sl != null)
+			{
+				string fillName = "null", handleName = "null", backgroundName = "none";
+				try { if (sl.fillRect != null) fillName = sl.fillRect.name; } catch (Exception) { }
+				try { if (sl.handleRect != null) handleName = sl.handleRect.name; } catch (Exception) { }
+				try
+				{
+					for (int c = 0; c < t.childCount; c++)
+					{
+						if (t.GetChild(c).gameObject.name.IndexOf("background", StringComparison.OrdinalIgnoreCase) >= 0)
+						{
+							backgroundName = t.GetChild(c).gameObject.name;
+							break;
+						}
+					}
+				}
+				catch (Exception) { }
+				log.LogInfo("[XP]   slider: min=" + sl.minValue + " max=" + sl.maxValue + " whole=" + sl.wholeNumbers +
+					" fillRect=" + fillName + " handleRect=" + handleName + " background=" + backgroundName);
+			}
+		}
+		catch (Exception) { }
+
+		try
+		{
+			Component[] comps = t.GetComponents<Component>();
+			string list = "";
+			for (int i = 0; i < comps.Length; i++)
+			{
+				try
+				{
+					list += comps[i].GetIl2CppType().FullName + "; ";
+				}
+				catch (Exception)
+				{
+				}
+			}
+			log.LogInfo("[XP]   comps: " + list);
+		}
+		catch (Exception) { }
+
 		log.LogInfo("[XP]   children: ");
 		for (int i = 0; i < t.childCount; i++)
 		{
@@ -589,6 +802,7 @@ public class XPDisplayBehaviour : MonoBehaviour
 
 			SyncLevelState();
 			Subscribe();
+			ScanNativeXpNodes();
 		}
 		catch (Exception ex)
 		{

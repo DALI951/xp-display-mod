@@ -1,66 +1,68 @@
-# XP Display Mod — Supermarket Simulator (IL2CPP / BepInEx 6)
+# XP Display Mod (Supermarket Simulator, IL2CPP / BepInEx 6)
 
-An XP / level HUD + configurable display panel for **Supermarket Simulator v1.6.0
-(all DLC, SteamUnlocked IL2CPP build)**. Built with BepInEx 6 (IL2CPP) + BepInEx.Core
-6, C# 7, and rendered entirely through **IMGUI** (see the hard rule below — UGUI/AddComponent
-is dead in this IL2CPP build).
+**THIS IS THE AI HANDOFF REPO — the single source of truth for continuing this mod.**
 
-**Repo links**
-- Mod (this repo): `https://github.com/DALI951/xp-display-mod`
-- Game interop (references the mod compiles against, PRIVATE):
-  `https://github.com/DALI951/supermarket-sim-xtream-IL2CPP-interop`
+Read **`AI-CONTEXT.md` at the repo root FIRST** — it contains the full engine knowledge
+(what works / what is proven / what crashes in this IL2CPP build, the IMGUI-only hard
+rule, config entry names, the build recipe, deployment steps, current status, and the
+open TODO). This README is the quick 60-second summary + links so you land fast.
 
-## What it does
-- Gold XP bar (top center) + XP-to-level fill, scale + offset configurable.
-- **Level-up popup** (big gold banner centre).
-- **+XP / -XP floaters** on the HUD.
-- **Session stats line** (XP this session, XP/hr, level-ups).
-- A **native-looking settings-screen panel** (the "XP DISPLAY" tab that appears at the top
-  of the game's own UI) that holds ALL the config toggles/sliders/colours, rendered by the
-  SAME IMGUI pipeline as the HUD.
-- Tab strip + gold "XP DISPLAY" tab-label (appears like an in-game feature).
+---
 
-## THE HARD RULE (why the code looks the way it does)
-This game is **IL2CPP-stripped**. Generic `GameObject.AddComponent<T>()` throws a
-`TypeInitializationException` at runtime (the stripped generic `MethodInfoStore...` class has
-no body). Non-generic `AddComponent(System.Type)` wants `Il2CppSystem.Type` and won't take a
-plain `System.Type`. A fresh UGUI `Canvas` cannot be composed either.
+## What this is (60 seconds)
 
-**Therefore: everything draws with Unity IMGUI (`OnGUI`)** — `GUI.DrawTexture`,
-`GUI.Label`, `GUI.DrawTexture`(rounded texture built with `SetPixels`), builtin Arial font
-via `Resources.GetBuiltinResource<Font>("Arial.ttf")` — the SAME proven pipeline as the HUD
-bar, floaters, popup, stats and tab label. OnGUI draws AFTER every UGUI canvas, so the
-settings panel appears on top of the game's settings window exactly like a native sub-screen.
+A BepInEx 6 IL2CPP plugin (`XPDisplayMod.dll`) for **Supermarket Simulator v1.6.0
+(SteamUnlocked ALL.DLC build, game version reported as v1.6.0(223))** that shows:
+- a gold **XP HUD bar** (top-right, styled to match the game's native HUD)
+- **+XP / -XP floaters** that drift up on xp events
+- **level-up popup** (big gold banner, scaled + faded)
+- **session stats line** (XP this session, XP/hour, level-ups)
+- a **"XP DISPLAY" tab** appended to the game's own tab strip (cloned from the game's
+  native tab, gold label) — **clicking the tab opens a settings config panel**
+- drag-to-move HUD (mouse-drag the panel top bar, auto-saves OffsetX/OffsetY to cfg)
 
-## Build (proven command — use THIS, not plain MSBuild)
-The framework `csc` cannot parse C# 7. Use the VS Build Tools **Roslyn** compiler:
+The current engineering **hard rule**: this IL2CPP build has **stripped generic
+`AddComponent<T>()`** (throws `TypeInitializationException` at runtime) — all rendering
+must be **IMGUI (`OnGUI`)**. UGUI/`AddComponent`/`Canvas` composition is DEAD on this
+build. Do not re-add UGUI code; the full reasoning is in `AI-CONTEXT.md`.
+
+## Repos
+
+| Part | Repo | Visibility |
+|------|------|------------|
+| Mod (THIS repo) | `https://github.com/DALI951/xp-display-mod` | public |
+| Game interop reference dlls (private) | `https://github.com/DALI951/supermarket-sim-interop` | private |
+
+## Where the code lives (this machine)
+
+- Source + build: `F:\mods\supermarket\xp\XPDisplayMod\`
+  - `XPDisplayBehaviour.cs` (24,715B) — plugin behaviour, config `ConfigEntry`s, OnGUI
+  - `XpHudRenderer.cs` (8,161B) — IMGUI HUD renderer (bar, floaters, popup, stats)
+  - `ModsCfgPanel.cs` (854B) — the settings-panel stub (IMGUI, `Open/Close/Render`)
+  - `XPDisplayMod.cs` (4,090B) — plugin entry
+  - `XPDisplayMod.csproj` (5,109B)
+- Built DLL (43,008B, proven build 21:53:42): `bin\Release\XPDisplayMod.dll`
+- Deploy target: `C:\SteamUnlocked\Supermarket.Sim.v1.6.0.ALL.DLC\...\BepInEx\plugins\XPDisplayMod.dll`
+- Decompiled/interop refs used to compile: `...\BepInEx\interop\` (UnityEngine.*, Il2CppSystem.*, Assembly-CSharp.dll etc.)
+
+## Build command (proven, ASCII-safe)
 
 ```powershell
 $msb = "$env:windir\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe"
 $ros = "C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\MSBuild\Current\Bin\Roslyn"
-& $msb .\XPDisplayMod.csproj /t:Build /p:Configuration=Release /v:q /nologo `
-  "/p:CscToolPath=$ros" /p:CscToolToolExe=csc.exe
+& $msb F:\mods\supermarket\xp\XPDisplayMod\XPDisplayMod.csproj /t:Build /p:Configuration=Release /v:q /nologo "/p:CscToolPath=$ros" /p:CscToolExe=csc.exe
 ```
 
-The built DLL is `bin\Release\XPDisplayMod.dll`. Deploy to the game's
-`BepInEx/plugins/XPDisplayMod.dll`.
+## Wrong-prefix note
 
-## Files
-- `XPDisplayMod.cs` — plugin entrypoint + BepInEx `ConfigFile` bindings (scale, offsets,
-  colours as "r,g,b,a" strings, toggles, keys, reward config).
-- `XPDisplayBehaviour.cs` — the Unity `BaseBehaviour`. OnGUI → HUD renderer +
-  `ModsCfgPanel.Render()` when the config screen is open. Tab-click → `ModsCfgPanel.Open()`.
-- `XpHudRenderer.cs` — HUD bar / floaters / popup / stats / tab label, all IMGUI.
-- `XPDisplayBehaviour.cs` — XP session tracking + render control (see file).
-- `ModsCfgPanel.cs` — the config-screen IMGUI class (`IsOpen` / `Open` / `Close` / `Render`).
+This machine's GitHub CLI uses the repo owner `DALI951` (the `DALI951/…` URLs above are
+authoritative). The memory files may reference an older DALI951/DALI951 pair — trust the
+URLs in this README.
 
-**Priorities / natural next step (in-repo AI-CONTEXT.md has the full backlog).** The config
-panel currently opens when you click the "XP DISPLAY" tab (or F2 toggle). Expand it to look
-exactly like a native settings screen: title bar with gold accent, section labels, toggles
-for each HUD part, scale slider, colour rows, config-entry-driven reward toggle. Reuse the
-proven `GUI` primitives and the gold `#FFDA60` accent. ALWAYS build with the Roslyn command
-above and confirm 0 `error CS` before deploying.
+## Next work item (see AI-CONTEXT.md for the full backlog)
 
-## License
-GPL-3.0. This is DALI951's own code; the game binaries are NOT in this repo (they live in
-the private interop repo).
+Finish the **config panel** (`ModsCfgPanel.Render()`) so the "XP DISPLAY" tab opens a
+**native-looking settings sub-screen** (matching the game's dark-#222 / gold-#FFDA60
+look) with real toggles: ShowBar, ShowPopup, ShowFloaters, ShowStats, Scale, colors, tab
+toggle key — each wired to the existing `XPDisplayMod.*` `ConfigEntry`s. The engine and
+HUD are DONE and user-approved; the panel is the remaining feature.

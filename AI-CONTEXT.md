@@ -210,5 +210,32 @@ Referenced directly as e.g. `ModsCfgPanel.Render()` - keep the `IsOpen`/`Open`/`
 
 ---
 
+## 2026-09-24 — UI data-gathering pass (read `dump/UI-DATA-REPORT.md` FIRST)
+
+- This session produced raw UI dumps in `dump/` (`RunA-main-menu-settings.txt` =
+  the FULL main-menu settings screen dump, 121 KB; `RunB-native-xp-scan.txt` +
+  `RunB-settings-instances.txt` = in-game data). The report `dump/UI-DATA-REPORT.md`
+  is the source of truth for what was learned and what remains.
+- KEY FACTS: in-game settings = TWO `SettingsMenuManager` instances under
+  `---UI---/PopUps/Escape Menu/` — `XboxSettingMenu` (the VISIBLE one, Xbox-style)
+  + `NewSettings Menu` (PC-style). Main menu = single `NewSettings Menu`. All game
+  text is TMP (`TMPro.TextMeshProUGUI`, font via `tmp.font.name`). Native XP bar =
+  `Store Point Slider` at `---UI---/Ingame Canvas/Store Point Slider`; day-end
+  report = `Store Point Text` under `Day Cycle Canvas/Daily Statistics Screen`.
+- BLOCKER (UNSURE, unsolved): the one-shot settings dump `DumpSettingsScreen()`
+  NEVER fires in-game. Gate `openNow` stayed false across 3 gate variants (Menu-child
+  active / tracked-instance active-root / both). No exceptions thrown — the scan
+  just never sees the settings as "open". Escape Menu settings toggle visibility
+  through something `activeInHierarchy` sampling misses (Canvas.enabled? parent
+  activeSelf? timing?). Next step: log EVERY scan tick's instance states, or hook
+  the settings-open, before doing ANY injection work. Main-menu settings dump works
+  (Run A captured it). Tab-button injection is gated on the same `openNow` +
+  PC-layout `Menu` child, so no tab appears in-game (Dali confirmed).
+- Build: unchanged recipe (framework MSBuild + Roslyn override), 4 clean builds
+  this session, 0 error CS. `Unity.TextMeshPro` reference added to csproj.
+- NO panel/toggle/slider clone code was written this pass — data gathering only.
+
+---
+
 _Generated as the single-source handoff for XPDisplayMod. Whenever editing this mod, read
 this file first, then the 4 source files, then the csproj, then build._

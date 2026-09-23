@@ -78,6 +78,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>C:\SteamUnlocked\Supermarket.Sim.v1.6.0.ALL.DLC\Supermarket.Sim.v1.6.0.ALL.DLC\BepInEx\interop\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:\SteamUnlocked\Supermarket.Sim.v1.6.0.ALL.DLC\Supermarket.Sim.v1.6.0.ALL.DLC\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <AppDesigner Include="Properties\" />
